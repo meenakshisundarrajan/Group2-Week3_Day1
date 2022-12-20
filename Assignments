@@ -1,0 +1,10 @@
+package bankinfo;
+
+public class Automation implements Language{
+
+	public int Java() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	public class 
+}
