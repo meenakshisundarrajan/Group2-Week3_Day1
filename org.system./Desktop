@@ -1,0 +1,10 @@
+package org.system;
+
+public class Desktop {
+	public int desktopSize(int size)
+	{
+		return size;
+		
+	}
+	
+}
