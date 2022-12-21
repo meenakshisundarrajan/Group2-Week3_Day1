@@ -1,10 +1,19 @@
 package org.system;
 
-public class Desktop {
-	public int desktopSize(int size)
+public class Desktop extends Computer{
+
+	public String desktopSize()
 	{
-		return size;
-		
+		System.out.println("Desktop size: 21");
+		return null;
 	}
-	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+		Desktop DesktopObject = new Desktop();
+		DesktopObject.computerModel();
+		DesktopObject.desktopSize();
+	  
+	}
+
 }
