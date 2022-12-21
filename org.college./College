@@ -1,0 +1,22 @@
+package org.college;
+
+public class College {
+	public int collegeName()
+	{
+		System.out.println("College Name is : Apollo");
+		return 0;
+			}
+	
+	public int collegeCode() {
+		System.out.println("College Code is : 124");
+
+		return 0;
+		
+	}
+	public int collegeRank() {
+		System.out.println("College Rank is : 188");
+
+		return 0;
+		
+	}
+}
