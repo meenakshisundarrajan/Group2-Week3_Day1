@@ -1,0 +1,21 @@
+package bankinfo;
+
+public class BankInfo {
+
+	public int saving()
+	{
+		System.out.println("Savings Account:" +" yes ");
+		return 0;
+	}
+	public int fixed()
+	{		System.out.println("fixed:" +" yes ");
+
+		return 0;
+	}
+	public static int deposit()
+	
+	{		System.out.println("deposit:" +" yes ");
+
+		return 0;
+	}
+}
