@@ -1,0 +1,46 @@
+package bankinfo;
+
+public class Automation extends MultipleLangauge {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Automation object = new Automation();
+		object.python();
+		object.ruby();
+		object.Java();
+		object.Selenium();
+	}
+
+	
+	public int Selenium() {
+		 
+		System.out.println("Selenium method");
+		return 0;
+		
+	}
+
+	public void python() {
+		// TODO Auto-generated method stub
+		System.out.println("python method");
+	}
+
+	
+	public int ruby() {
+		// TODO Auto-generated method stub	
+		System.out.println("Ruby method");
+		return 0;
+	}
+
+	public int Java() {
+		// TODO Auto-generated method stub
+		System.out.println("Java method");
+
+		return 0;
+	}
+	
+	
+	
+
+	
+
+}
