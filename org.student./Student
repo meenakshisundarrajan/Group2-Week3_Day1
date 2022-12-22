@@ -1,0 +1,38 @@
+package org.student;
+
+import org.department.Department;
+
+public class Student extends Department{
+	public int studentName()
+    	{
+    		System.out.println("Student Name is : Paras");
+    		return 0;
+    			}
+    	
+    	public int studentDept() {
+    		System.out.println("Student Dept is : 001");
+
+    		return 0;
+    		
+    	}
+    	public int studentId() {
+    		System.out.println("StudentId is : 129");
+
+    		return 0;
+    		
+    	}
+    
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student StudentObject = new Student();
+		StudentObject.collegeCode();
+		StudentObject.collegeName();
+		StudentObject.collegeRank();
+		StudentObject.deptName();
+		StudentObject.studentDept();
+		StudentObject.studentId();
+		StudentObject.studentName();
+		
+	}
+
+}
