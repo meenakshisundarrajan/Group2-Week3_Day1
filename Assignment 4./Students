@@ -1,0 +1,29 @@
+package bankinfo;
+
+public class Student {
+	public static void main(String[] args) {
+		Student stud = new Student();
+		stud.getStudentInfo(677);
+		stud.getStudentInfo(677, "Meenakshi");
+		stud.getStudentInfo("alagu@gmail.com", 352435252);		
+	}
+	
+		public int getStudentInfo(int id)
+	{
+			System.out.println("The student id " + id);
+		return 0;
+	}
+	public int getStudentInfo(int id , String name)
+	{				System.out.println("The student id and Student name " + id +  name);
+
+		return id;
+	}
+	public String getStudentInfo(String email , int phoneNumber) 
+	{
+		System.out.println("The student email and phoneNumber" + email +  phoneNumber);
+
+		return email;
+	}
+}	
+
+
