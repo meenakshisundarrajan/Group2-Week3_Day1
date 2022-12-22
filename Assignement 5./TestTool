@@ -1,0 +1,6 @@
+package bankinfo;
+
+public interface TestTool {
+	public int Selenium();
+
+}
