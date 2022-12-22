@@ -1,0 +1,6 @@
+package bankinfo;
+
+public interface Language {
+	public int Java();
+
+}
