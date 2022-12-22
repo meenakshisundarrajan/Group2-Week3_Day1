@@ -1,0 +1,15 @@
+package bankinfo;
+
+public abstract class MultipleLangauge implements Language,TestTool
+{
+	
+	// TODO Auto-generated method stub
+	public void python() {
+	
+	}
+	public int ruby() {
+		return 0;
+	}
+}
+
+
